@@ -2,12 +2,12 @@
 
 
 /**
- * main - check the code.
- *
- * Returns 1 and prints + if n is greater than zero
- * Returns 0 and prints 0 if n is zero
- *Returns -1 and prints - if n is less than zero
- * */
+ * print_sign - Check main
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
+ */
 
 int print_sign(int n)
 {
