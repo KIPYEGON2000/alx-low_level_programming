@@ -9,8 +9,9 @@
 int _abs(int i){
 	
 	if(i<0){
-		i=(-1)*n;
-		return i;
+		int a;
+		a=(-1)*i;
+		return a;
 	}
 	
 	else{
