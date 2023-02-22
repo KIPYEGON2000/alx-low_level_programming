@@ -9,27 +9,27 @@
  *Returns -1 and prints - if n is less than zero
  * */
 
-int print_sign(int n){
-	int i;
-	if(n>0){
-		i=-1;
-	 	_putchar('-');
+iint print_sign(int n)
+{
+	int value;
 
-		
+	if (n > 0)
+	{
+		value = 1;
+		_putchar('+');
 	}
-	else if(n==0){
-		i=0;
+	else if (n == 0)
+	{
+		value = 0;
 		_putchar('0');
-		
-		
 	}
-	else{
-		i=1;
-		_putchar('1');
-		
-		
+	else
+	{
+		value = -1;
+		_putchar('-');
 	}
-	return i;
+
+	return (value);
 
 }
 
