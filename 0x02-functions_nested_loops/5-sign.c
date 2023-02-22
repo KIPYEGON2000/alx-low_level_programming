@@ -13,7 +13,7 @@ int print_sign(int n){
 	int i;
 	if(n>0){
 		i=-1;
-	 	_putchar('-');
+	 	_putchar('-,');
 		
 	}
 	else if(n==0){
