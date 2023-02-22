@@ -10,25 +10,25 @@
  * */
 
 int print_sign(int n){
-	int i=-1;
-	int z=0;
-	int y=1;
+	int i;
 	if(n>0){
-		char* k="-";
-	 	_putchar(k);
-		return i;
+		i=-1;
+	 	_putchar('-');
+		
 	}
 	else if(n==0){
-		_putchar("0,");
-		_putchar('\n');
-		return z;
+		i=0;
+		_putchar('0');
+		
+		
 	}
 	else{
-		_putchar("\+");
-		_putchar(",");
-		_puchar('\n');
-		return y;
+		i=1;
+		_putchar('1');
+		
+		
 	}
+	return i;
 
 }
 
