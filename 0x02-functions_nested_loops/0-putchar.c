@@ -1,5 +1,5 @@
-#include <0-putchar>
-#include <main.c>
+#include <0-putchar.c>
+#include <main.h>
 int main(void){
         _putchar("_putchar");
 
