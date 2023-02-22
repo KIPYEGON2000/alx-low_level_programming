@@ -1,13 +1,13 @@
 #include "main.h"
 void print_alphabet_x10(void)
 {
-	char i;
-	int j;
-
-	for (j = 0; j < 10; j++)
+	int j=0;
+	while(j<10)
 	{
-		for (i = 'a'; i <= 'z'; i++)
-			_putchar(i);
-		_putchar('\n');
-	}
+		char i;
+		for(i='a';i<='z';i++){
+			_putchar(i)
+			}
+		_putchar('\n')
+		}
 }
