@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 
 /**
@@ -14,16 +14,17 @@ int print_sign(int n){
 	int z=0;
 	int y=1;
 	if(n>0){
-	 	_putchar("-");
+	 	_putchar("-,");
 		return i;
 	}
 	else if(n==0){
-		_putchar("0");
+		_putchar("0,");
 		_putchar('\n');
 		return z;
 	}
 	else{
-		_putchar("1");
+		_putchar("+");
+		_putchar(",");
 		_puchar('\n');
 		return y;
 	}
