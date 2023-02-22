@@ -14,7 +14,8 @@ int print_sign(int n){
 	int z=0;
 	int y=1;
 	if(n>0){
-	 	_putchar('\-,');
+		char* k="-";
+	 	_putchar(k);
 		return i;
 	}
 	else if(n==0){
