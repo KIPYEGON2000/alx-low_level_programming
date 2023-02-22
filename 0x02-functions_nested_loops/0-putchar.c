@@ -8,7 +8,7 @@
  * On error, -1 is returned, and errno is set appropriatel
  * */
 
- c = "_putchar";
-_putchar(i);
+ char c = "_putchar";
+_putchar(c);
 
 
