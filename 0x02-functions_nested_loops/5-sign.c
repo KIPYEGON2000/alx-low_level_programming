@@ -9,7 +9,7 @@
  *Returns -1 and prints - if n is less than zero
  * */
 
-iint print_sign(int n)
+int print_sign(int n)
 {
 	int value;
 
